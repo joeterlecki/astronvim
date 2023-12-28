@@ -4,13 +4,14 @@ return {
     opts = {
       automatic_installation = true,
       ensure_installed = {
+        "bashls",
+        "docker_compose_language_service",
+        "dockerls",
         "gopls",
         "lua_ls",
         "terraformls",
-        "yamlls",
-        "bashls",
         "tflint",
-        "omnisharp",
+        "yamlls",
       },
     },
   },
@@ -19,10 +20,12 @@ return {
     opts = {
       automatic_installation = true,
       ensure_installed = {
+        "cfn-lint",
         "goimports",
         "hadolint",
-        "yamllint",
         "shellcheck",
+        "shfmt",
+        "yamllint",
       },
     },
   },
@@ -31,9 +34,14 @@ return {
     opts = {
       automatic_installation = true,
       ensure_installed = {
+        "bash",
+        "dockerfile",
         "go",
-        "terraform",
         "hcl",
+        "luadoc",
+        "terraform",
+        "toml",
+        "yaml",
       },
     },
   },
