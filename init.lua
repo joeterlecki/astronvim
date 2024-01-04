@@ -1,3 +1,3 @@
 return {
-  colorscheme = "gruvbox-material"
+  colorscheme = "catppuccin-mocha"
 }
